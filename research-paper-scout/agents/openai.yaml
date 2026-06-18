@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Paper Scout"
+  short_description: "Scout prior art by paper content"
+  default_prompt: "Use $research-paper-scout to check whether this research direction has already been studied, then return only papers.csv and prior_art_conclusion.md."
+policy:
+  allow_implicit_invocation: true
