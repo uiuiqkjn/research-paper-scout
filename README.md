@@ -58,16 +58,7 @@ Research Paper Scout 是一个用于研究方向 prior-art 检索的 Codex skill
 
 ```text
 $skill-installer 请从 GitHub 安装这个 skill：
-https://github.com/<owner>/<repo>/tree/main/research-paper-scout
-```
-
-如果仓库分支不是 `main`，把 URL 中的分支名替换成实际分支即可。安装完成后，重启 Codex 以加载新 skill。
-
-也可以让 Codex 在当前工作区中复制本地目录：
-
-```text
-请把当前仓库里的 research-paper-scout 文件夹安装到 ~/.codex/skills/research-paper-scout，
-如果目标目录已存在，请先提醒我确认，不要直接覆盖。
+https://github.com/uiuiqkjn/research-paper-scout
 ```
 
 ### 方式二：手动安装到 Codex
@@ -94,18 +85,7 @@ mkdir -p ~/.claude/skills
 cp -R research-paper-scout ~/.claude/skills/
 ```
 
-安装后，重启 Claude Code 或新开一个 Claude Code 会话。之后可以直接描述任务，或明确提到该 skill：
-
-```text
-使用 research-paper-scout 帮我判断下面这个研究方向是否已有相近工作：
-
-research_topic: ...
-keywords: ...
-year_from: ...
-year_to: ...
-max_results: 50
-venues: ...
-```
+安装后，重启 Claude Code 或新开一个 Claude Code 会话，之后可以直接描述任务。
 
 ## 在 Codex 中快速使用
 
